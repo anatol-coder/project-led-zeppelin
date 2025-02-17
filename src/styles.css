@@ -1,5 +1,51 @@
-h1 {
-  font-family: Playfair display;
+body {
+  background-color: black;
+  font-family: "Playfair display";
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("../images/la.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+header h1 {
   font-size: 128px;
   font-weight: bold;
+  line-height: 1;
+  color: #ffb22c;
+}
+header h2 {
+  letter-spacing: 5px;
+  color: red;
+}
+header button {
+  border-radius: 50%;
+  padding: 9px;
+  background-color: red;
+  font-size: 14px;
+  font-family: "Poppins";
+  line-height: 1.5;
+}
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 36px;
+    background-color: black;
+  }
+  header h2 {
+    padding-top: 0;
+    margin-top: 0;
+    color: red;
+    font-size: 15px;
+  }
+  header button {
+    font-size: 12px;
+  }
 }
