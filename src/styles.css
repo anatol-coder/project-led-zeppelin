@@ -59,10 +59,6 @@ section {
 }
 footer {
   font-family: "Poppins";
-  background-image: 
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
 
 footer p {
@@ -71,26 +67,49 @@ footer p {
 .open-sourced {
   text-align: center;
 }
-footer a{
+footer a {
   color: white;
 }
 footer ul {
-padding: 0;
+  padding: 0;
 }
 footer li {
   list-style: none;
 }
 .open-sourced a {
-color: red;
+  color: red;
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
+.grid-3-columns-one-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
 
-
-@media (max-width: 900px) {
+  padding-top: 100px;
+}
+.grid-2-columns img {
+  height: 700px;
+}
+main h2 {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  width: 135px;
+  background-color: red;
+}
+main h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+@media (max-width: 960px) {
   header {
     max-width: 100%;
     background-size: cover;
@@ -108,5 +127,17 @@ color: red;
   header button {
     padding: 4px;
     font-size: 8px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  .grid-2-columns {
+    img {
+      display: none;
+    }
+    h3 {
+      font-size: 36px;
+    }
   }
 }
