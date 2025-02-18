@@ -86,11 +86,10 @@ color: red;
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 
-.grid div {
-  margin: 20px;
-}
+
 @media (max-width: 900px) {
   header {
     max-width: 100%;
