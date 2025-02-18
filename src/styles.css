@@ -33,6 +33,14 @@ header h2 {
   color: red;
   margin: 0 auto;
 }
+header h3 {
+  color: white;
+  background: black;
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
 
 header button {
   border-radius: 50%;
@@ -42,6 +50,46 @@ header button {
   font-family: "Poppins";
   line-height: 1.5;
   margin-bottom: 0;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+footer {
+  font-family: "Poppins";
+  background-image: 
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+footer p {
+  color: white;
+}
+.open-sourced {
+  text-align: center;
+}
+footer a{
+  color: white;
+}
+footer ul {
+padding: 0;
+}
+footer li {
+  list-style: none;
+}
+.open-sourced a {
+color: red;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid div {
+  margin: 20px;
 }
 @media (max-width: 900px) {
   header {
