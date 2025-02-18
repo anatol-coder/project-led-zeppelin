@@ -39,17 +39,19 @@ header h3 {
   max-width: 450px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 button {
   border-radius: 50%;
   padding: 9px;
-  background-color: red;
+  background-color: brown;
   font-size: 14px;
   font-family: "Poppins";
-  line-height: 1.5;
+  line-height: 1;
   margin-bottom: 0;
+  text-decoration: none;
+  color: black;
 }
 
 section {
@@ -78,7 +80,7 @@ footer li {
   list-style: none;
 }
 .open-sourced a {
-  color: red;
+  color: brown;
 }
 .grid {
   display: grid;
@@ -89,7 +91,10 @@ footer li {
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
-
+  padding-top: 100px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
   padding-top: 100px;
 }
 .grid-2-columns img {
@@ -107,13 +112,58 @@ main h2 {
   color: white;
   text-transform: uppercase;
   width: 135px;
-  background-color: red;
+  background-color: brown;
+  padding: 5px;
 }
 main h3 {
   font-family: "Playfair Display";
   font-weight: bold;
   font-size: 48px;
   color: white;
+}
+.secondary h2 {
+  margin: 0 auto;
+  max-width: 50px;
+  padding: 5px;
+}
+.secondary h3 {
+  margin: 0 auto;
+  padding: 20px 100px 20px;
+  max-width: 850px;
+  margin-bottom: 0;
+}
+.secondary h4 {
+  color: #ffb22c;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  margin-top: 0;
+}
+.secondary h5 {
+  color: #ffb22c;
+  font-size: 15px;
+  font-family: "Playfair Display";
+  margin: 0;
+}
+p {
+  font-family: "Poppins";
+}
+.card {
+  background-color: brown;
+  padding: 0 15px 15px;
+  margin-top: 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.card button {
+  display: block;
+  margin: 0 auto;
+  background-color: #ffb22c;
+}
+.card-body {
+  padding: 30px;
 }
 @media (max-width: 960px) {
   header {
@@ -130,6 +180,9 @@ main h3 {
     padding-top: 5px;
     font-size: 10px;
   }
+  header h3 {
+    font-size: 24px;
+  }
   header button {
     padding: 4px;
     font-size: 8px;
@@ -139,11 +192,35 @@ main h3 {
     grid-gap: 5px;
   }
   .grid-2-columns {
-    img {
-      display: none;
-    }
-    h3 {
-      font-size: 36px;
-    }
+    padding-bottom: 0;
+    padding-top: 30px;
+    margin-top: 60px;
+  }
+  .grid-2-columns button {
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  img {
+    display: none;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  button {
+    padding: 10px;
+  }
+
+  .secondary h2 {
+    margin-top: 0;
+  }
+  .secondary h3 {
+    font-size: 36px;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .grid-3-columns {
+    padding-top: 15px;
   }
 }
