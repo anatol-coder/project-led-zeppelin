@@ -60,28 +60,7 @@ section {
   color: white;
   padding: 100px;
 }
-footer {
-  font-family: "Poppins";
-}
 
-footer p {
-  color: white;
-}
-.open-sourced {
-  text-align: center;
-}
-footer a {
-  color: white;
-}
-footer ul {
-  padding: 0;
-}
-footer li {
-  list-style: none;
-}
-.open-sourced a {
-  color: brown;
-}
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -121,6 +100,9 @@ main h3 {
   font-size: 48px;
   color: white;
 }
+.secondary {
+  padding-top: 0;
+}
 .secondary h2 {
   margin: 0 auto;
   max-width: 50px;
@@ -128,7 +110,7 @@ main h3 {
 }
 .secondary h3 {
   margin: 0 auto;
-  padding: 20px 100px 20px;
+  padding: 20px 100px 0;
   max-width: 850px;
   margin-bottom: 0;
 }
@@ -148,9 +130,10 @@ p {
   font-family: "Poppins";
 }
 .card {
-  background-color: brown;
+  background-color: #ffb22c;
   padding: 0 15px 15px;
   margin-top: 0;
+  color: black;
 }
 
 .card a {
@@ -160,10 +143,32 @@ p {
 .card button {
   display: block;
   margin: 0 auto;
-  background-color: #ffb22c;
+  background-color: brown;
 }
 .card-body {
   padding: 30px;
+}
+footer {
+  font-family: "Poppins";
+}
+
+footer p {
+  color: white;
+}
+.open-sourced {
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+.open-sourced a {
+  color: brown;
 }
 @media (max-width: 960px) {
   header {
@@ -186,6 +191,7 @@ p {
   header button {
     padding: 4px;
     font-size: 8px;
+    border: none;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -200,27 +206,32 @@ p {
     margin-top: 0;
     display: block;
     margin: 0 auto;
+    border: none;
   }
   img {
     display: none;
   }
-  h3 {
-    font-size: 36px;
-  }
+
   button {
     padding: 10px;
+    border: none;
   }
 
   .secondary h2 {
-    margin-top: 0;
+    margin-top: 40px;
   }
   .secondary h3 {
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
     padding: 0;
     margin-top: 20px;
   }
   .grid-3-columns {
     padding-top: 15px;
+  }
+  .grid-2-columns button {
+    padding: 15px;
+    margin-left: 25px;
+    border: none;
   }
 }
