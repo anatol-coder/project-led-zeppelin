@@ -232,7 +232,9 @@ footer li {
     padding: 10px;
     border: none;
   }
-
+  .secondary {
+    padding-left: 70px;
+  }
   .secondary h2 {
     margin-top: 40px;
   }
