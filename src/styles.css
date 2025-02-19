@@ -136,6 +136,11 @@ p {
   margin-top: 0;
   color: black;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-top: 40px;
+}
 
 .card a {
   text-decoration: none;
@@ -148,7 +153,16 @@ p {
   border: none;
 }
 .card-body {
-  padding: 30px;
+  padding: 0 30px 30px;
+  margin-top: o;
+}
+.card-body h4 {
+  color: brown;
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 footer {
   font-family: "Poppins";
@@ -235,5 +249,14 @@ footer li {
     padding: 15px;
     margin-left: 25px;
     border: none;
+  }
+  .card {
+    display: block;
+    margin: 0 auto;
+  }
+  .embed {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 15px;
   }
 }
