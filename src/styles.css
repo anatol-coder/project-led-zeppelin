@@ -44,6 +44,7 @@ header h3 {
 
 button {
   border-radius: 50%;
+  border: none;
   padding: 9px;
   background-color: brown;
   font-size: 14px;
@@ -144,6 +145,7 @@ p {
   display: block;
   margin: 0 auto;
   background-color: brown;
+  border: none;
 }
 .card-body {
   padding: 30px;
