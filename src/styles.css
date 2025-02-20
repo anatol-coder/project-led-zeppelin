@@ -102,7 +102,7 @@ main h3 {
   color: white;
 }
 .secondary {
-  padding-top: 0;
+  padding-top: 100px;
 }
 .secondary h2 {
   margin: 0 auto;
@@ -122,10 +122,20 @@ main h3 {
   margin-top: 0;
 }
 .secondary h5 {
-  color: #ffb22c;
+  color: brown;
   font-size: 15px;
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   margin: 0;
+}
+.third h2 {
+  margin: 0 auto;
+  display: block;
+}
+.third h3 {
+  margin: 0 auto;
+  padding: 20px 100px 0 250px;
+  max-width: 850px;
+  margin-bottom: 0;
 }
 p {
   font-family: "Poppins";
@@ -164,12 +174,24 @@ p {
   margin: 0 auto;
   margin-top: 40px;
 }
+.spotify-embeds {
+  padding: 0 30px 30px 30px;
+}
+.spotify-embeds-two {
+  padding: 20px;
+}
+.grid-3-columns-one-narrow {
+  padding-top: 0;
+}
 footer {
   font-family: "Poppins";
 }
-
+.additional-songs {
+  padding-top: 80px;
+}
 footer p {
   color: white;
+  padding-top: 0;
 }
 .open-sourced {
   text-align: center;
@@ -219,10 +241,9 @@ footer li {
     margin-top: 60px;
   }
   .grid-2-columns button {
-    margin-top: 0;
-    display: block;
-    margin: 0 auto;
+    margin-top: 15px;
     border: none;
+    margin-left: 70px;
   }
   img {
     display: none;
@@ -262,5 +283,18 @@ footer li {
     width: 100%;
     aspect-ratio: 1/1;
     margin-bottom: 15px;
+  }
+  .third {
+    padding-bottom: 0;
+  }
+  .third h3 {
+    padding-left: 93px;
+  }
+  .third h2 {
+    padding-right: 0;
+    text-align: center;
+  }
+  .additional-songs {
+    padding-top: 50px;
   }
 }
